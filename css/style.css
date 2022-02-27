@@ -1,0 +1,33 @@
+
+#flex-box {
+    margin:auto 0;
+    display:flex;
+    flex-wrap: wrap;
+    padding:2%;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-evenly;
+    
+    
+}
+.card {
+    border-color: white;
+}
+
+.card-img-top {
+    margin:auto;
+    width: 80%;
+    height:250px;
+    transition: width 2s;
+    align-items: center;
+    border-radius: 10%;
+    }
+    .card-img-top:hover {
+        width: 100%;
+    }
+    footer{
+        height:150px;
+        width:100%;
+        background-color: rgb(63, 63, 117);
+        color:rgb(201, 205, 211);
+    }
